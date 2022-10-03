@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
+
+.titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 500px;
+}
+
+#primeira-imagem-carrossel {
+    object-position: 0 80%;
+}
+
+.titulo:not(h1) {
+    color: darkred;
+}
+
+.card {
+    max-width: 18rem;
+    border-color: darkred;
+}
+
+.position-card {
+    object-fit: cover;
+    height: 200px;
+}
+
+#botao-card {
+    background-color: darkred;
+    border-color: darkred;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
