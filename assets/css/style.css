@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
+
+
 .titulo {
     font-family: 'Pacifico', cursive;
 }
 
 .imagem-carrossel {
     object-fit: cover;
-    height: 500px;
+    height: 640px;
 }
 
 #primeira-imagem-carrossel {
@@ -17,8 +19,14 @@
     color: darkred;
 }
 
+.titulos {
+    background-color: rgb(179, 89, 47);
+    border-radius: 20%;
+    color: white;
+}
+
 .card {
-    max-width: 18rem;
+    max-width: 20rem;
     border-color: darkred;
 }
 
@@ -31,6 +39,17 @@
     background-color: darkred;
     border-color: darkred;
     color: #fff;
+}
+
+@media screen and (max-width: 435px){
+    .card {
+        max-width: 80%;
+    }
+
+    .imagem-carrossel {
+        object-fit: cover;
+        height: 500px;
+    }
 }
 
 
