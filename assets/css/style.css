@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
+:root {
+    --corTitulos:darkred;
+    --backgroundTitulos: rgb(179, 89, 47);
+}
 
+#titulo-navbar {
+    text-decoration: none;
+    color: var(--corTitulos);
+}
 
 .titulo {
     font-family: 'Pacifico', cursive;
@@ -8,7 +16,7 @@
 
 .imagem-carrossel {
     object-fit: cover;
-    height: 640px;
+    height: 540px;
 }
 
 #primeira-imagem-carrossel {
@@ -16,18 +24,18 @@
 }
 
 .titulo:not(h1) {
-    color: darkred;
+    color: var(--corTitulos);
 }
 
 .titulos {
-    background-color: rgb(179, 89, 47);
+    background-color: var(--backgroundTitulos);
     border-radius: 20%;
     color: white;
 }
 
 .card {
     max-width: 20rem;
-    border-color: darkred;
+    border-color: var(--corTitulos);
 }
 
 .position-card {
@@ -36,12 +44,12 @@
 }
 
 #botao-card {
-    background-color: darkred;
-    border-color: darkred;
+    background-color: var(--corTitulos);
+    border-color: var(--corTitulos);
     color: #fff;
 }
 
-@media screen and (max-width: 435px){
+@media screen and (max-width: 500px){
     .card {
         max-width: 80%;
     }
@@ -49,6 +57,10 @@
     .imagem-carrossel {
         object-fit: cover;
         height: 500px;
+    }
+     
+    .nav-item, .nav-link, #input-search {
+        margin-left: 10px;
     }
 }
 
